@@ -1,0 +1,18 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+
+.inline-container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.icon {
+    align-items: center;
+    display: block;
+    height: auto;
+    width: auto;
+}

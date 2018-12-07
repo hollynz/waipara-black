@@ -1,0 +1,44 @@
+.hero {
+    .navbar {
+        //Hide/show nav on scroll
+        position: fixed; 
+        top: 0;
+        transition: top 0.8s ease, background 0.8s ease;
+        width: 100%;
+    }
+
+    .navbar-item {
+        img {
+            padding-top: 4%;
+            padding-bottom: 2%;
+            max-height: 4rem;
+        }
+    }
+
+    .navbar-burger {
+        height: auto;
+    }
+
+    .tabs {
+        a {
+            border-bottom: none;
+            font-size: 1.2em;
+            font-weight: 450;
+        }
+
+        li.is-active {
+            a {
+                color: $black-90;
+                font-weight: 600;
+                font-size: 130%;
+            }
+        }
+
+        li {
+            a:hover {
+                color: $black-90;
+                font-weight: 600;
+            }
+        }
+    }
+}

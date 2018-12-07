@@ -1,0 +1,75 @@
+.wine {
+    flex-grow: 1;
+    flex-shrink: 0;
+    font-size: 200%;
+    background: $black-005; 
+    margin-bottom: 10%;
+
+    figure {
+        padding: 0;
+        margin: 1rem 2rem;
+    }
+
+    img {
+        max-height: auto;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 14%;
+        padding: 0;
+    }
+
+    .columns {
+        margin: 6rem auto;
+        margin-top: 0;
+    }
+
+    .column {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wine-background {
+        padding: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        // cursor: pointer; // Use when modals are implemented
+    }
+
+    // Use when modal on click is implemented
+    // .wine-background:hover {
+    //     background-color: rgba(255,255,255,0.8);
+    // }
+
+    .button {
+        margin-top: 1rem;
+        background: $white;
+    }
+
+    .title {
+        font-size: 80%;
+    }
+
+    .title.specials {
+        color: $black;
+    }
+
+    .title:hover {
+        -webkit-text-stroke: 0.4px $grey-hover;
+    }
+
+    // .column.specials {
+    //     background-color: rgba(255,255,255,0.6);
+    //     border: solid rgba(0,0,0,0.5) 4px; 
+    // }
+
+    .dropdown-content {
+        width: 35%;
+    }
+
+    .fas:hover {
+        color: $black;
+    }
+}

@@ -1,0 +1,83 @@
+.footer {
+    
+    background-color: $black-90;
+    padding: 0;
+    position: fixed;
+    bottom: -100px;
+    width: 100%;
+    color: $white;
+    font-size: 120%;
+    text-align: left;
+    transition: bottom 0.8s ease;
+
+    a {
+        color: $white;
+    }
+
+    .social-media {
+        margin: 0 auto;
+        a {
+            font-size: 130%;
+            border: none;
+        }
+    }
+
+    .tabs {
+        padding-top: 10px;
+        padding-bottom: 6px;
+        ul {
+            border: none;
+        }
+    }
+
+    a:hover {
+        color: $white-50;
+    }
+
+    #contact-info {
+        display: none;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        text-align: left;
+        padding-bottom: 1%;
+        border-top: $white solid 1px;
+    }
+
+    .hours {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        .title {
+            margin-bottom: 0.8rem;
+            padding-top: 0;
+        }
+    }
+
+    .button {
+        max-width: 80%;
+        margin-top: 10px;
+    }
+
+    .address, .hours {
+        margin-top: 8%;
+    }
+
+    .map {
+        margin-top: 6%;
+        margin-bottom: 5%;
+    }
+
+    .address, .email-link, .phone {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        div {
+            margin-left: 4%;
+        }
+    }
+
+    .email-link {
+        text-decoration: underline;
+    }
+
+}
